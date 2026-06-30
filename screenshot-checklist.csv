@@ -1,0 +1,95 @@
+section,page_title,html_file,suggested_screenshot_filename,status,notes
+Getting Started,Quick Start Guide,pages/quick-start.html,assets/screenshots/quick-start.png,needed,Capture from live installed system
+Getting Started,Dashboard,pages/dashboard.html,assets/screenshots/dashboard.png,needed,Capture from live installed system
+Getting Started,Branch / Outlet Selector,pages/branch-outlet-selector.html,assets/screenshots/branch-outlet-selector.png,needed,Capture from live installed system
+Getting Started,"Top Shortcuts: POS, Tables and Recent Orders",pages/top-shortcuts.html,assets/screenshots/top-shortcuts.png,needed,Capture from live installed system
+Getting Started,Screenshot Checklist,pages/screenshot-checklist.html,assets/screenshots/screenshot-checklist.png,needed,Capture from live installed system
+Menu,Menus,pages/menus.html,assets/screenshots/menus.png,needed,Capture from live installed system
+Menu,Menu Items,pages/menu-items.html,assets/screenshots/menu-items.png,needed,Capture from live installed system
+Menu,Item Categories,pages/item-categories.html,assets/screenshots/item-categories.png,needed,Capture from live installed system
+Menu,Modifier Groups,pages/modifier-groups.html,assets/screenshots/modifier-groups.png,needed,Capture from live installed system
+Menu,Item Modifiers,pages/item-modifiers.html,assets/screenshots/item-modifiers.png,needed,Capture from live installed system
+Menu,Menu to Table Assignment,pages/menu-to-table-assignment.html,assets/screenshots/menu-to-table-assignment.png,needed,Capture from live installed system
+Menu,Daily Menu PDF Email,pages/daily-menu-pdf-email.html,assets/screenshots/daily-menu-pdf-email.png,needed,Capture from live installed system
+Tables,Areas,pages/areas.html,assets/screenshots/areas.png,needed,Capture from live installed system
+Tables,Tables,pages/tables.html,assets/screenshots/tables.png,needed,Capture from live installed system
+Tables,QR Codes,pages/qr-codes.html,assets/screenshots/qr-codes.png,needed,Capture from live installed system
+Tables,Waiter Table Assignment,pages/waiter-table-assignment.html,assets/screenshots/waiter-table-assignment.png,needed,Capture from live installed system
+Front of House,Waiter Requests,pages/waiter-requests.html,assets/screenshots/waiter-requests.png,needed,Capture from live installed system
+Front of House,Reservations,pages/reservations.html,assets/screenshots/reservations.png,needed,Capture from live installed system
+Front of House,POS,pages/pos.html,assets/screenshots/pos.png,needed,Capture from live installed system
+Front of House,Orders,pages/orders.html,assets/screenshots/orders.png,needed,Capture from live installed system
+Front of House,Customers,pages/customers.html,assets/screenshots/customers.png,needed,Capture from live installed system
+Front of House,Staff,pages/staff.html,assets/screenshots/staff.png,needed,Capture from live installed system
+Delivery Executive,Delivery Executive Overview,pages/delivery-executive-overview.html,assets/screenshots/delivery-executive-overview.png,needed,Capture from live installed system
+Delivery Executive,Delivery Executives,pages/delivery-executives.html,assets/screenshots/delivery-executives.png,needed,Capture from live installed system
+Delivery Executive,Delivery Assignments,pages/delivery-assignments.html,assets/screenshots/delivery-assignments.png,needed,Capture from live installed system
+Delivery Executive,Delivery App Report,pages/delivery-app-report.html,assets/screenshots/delivery-app-report.png,needed,Capture from live installed system
+Delivery Executive,COD Report,pages/cod-report.html,assets/screenshots/cod-report.png,needed,Capture from live installed system
+Expenses,Expenses,pages/expenses.html,assets/screenshots/expenses.png,needed,Capture from live installed system
+Expenses,Recurring Expenses,pages/recurring-expenses.html,assets/screenshots/recurring-expenses.png,needed,Capture from live installed system
+Expenses,Expense Categories,pages/expense-categories.html,assets/screenshots/expense-categories.png,needed,Capture from live installed system
+Expenses,Expense Reports,pages/expense-reports.html,assets/screenshots/expense-reports.png,needed,Capture from live installed system
+Payments,Payments,pages/payments.html,assets/screenshots/payments.png,needed,Capture from live installed system
+Payments,Due Payments,pages/due-payments.html,assets/screenshots/due-payments.png,needed,Capture from live installed system
+Payments,Due Payments Received Report,pages/due-payments-received-report.html,assets/screenshots/due-payments-received-report.png,needed,Capture from live installed system
+Payments,Due Payment Reports,pages/due-payment-reports.html,assets/screenshots/due-payment-reports.png,needed,Capture from live installed system
+Payments,Refund Report,pages/refund-report.html,assets/screenshots/refund-report.png,needed,Capture from live installed system
+Payments,Tax Report,pages/tax-report.html,assets/screenshots/tax-report.png,needed,Capture from live installed system
+Reports,Reports Overview,pages/reports-overview.html,assets/screenshots/reports-overview.png,needed,Capture from live installed system
+Reports,Sales Report,pages/sales-report.html,assets/screenshots/sales-report.png,needed,Capture from live installed system
+Reports,Item Report,pages/item-report.html,assets/screenshots/item-report.png,needed,Capture from live installed system
+Reports,Category Report,pages/category-report.html,assets/screenshots/category-report.png,needed,Capture from live installed system
+Reports,POS Machine Report,pages/pos-machine-report.html,assets/screenshots/pos-machine-report.png,needed,Capture from live installed system
+Reports,Cancelled Order Report,pages/cancelled-order-report.html,assets/screenshots/cancelled-order-report.png,needed,Capture from live installed system
+Reports,Removed KOT Item Report,pages/removed-kot-item-report.html,assets/screenshots/removed-kot-item-report.png,needed,Capture from live installed system
+Reports,Loyalty Reports,pages/loyalty-reports.html,assets/screenshots/loyalty-reports.png,needed,Capture from live installed system
+Reports,Order Report,pages/order-report.html,assets/screenshots/order-report.png,needed,Capture from live installed system
+AI Assistant,AI Assistant,pages/ai-assistant.html,assets/screenshots/ai-assistant.png,needed,Capture from live installed system
+Cash Register,Register Dashboard,pages/register-dashboard.html,assets/screenshots/register-dashboard.png,needed,Capture from live installed system
+Cash Register,Cash Register,pages/cash-register.html,assets/screenshots/cash-register.png,needed,Capture from live installed system
+Cash Register,Cash Register Reports,pages/cash-register-reports.html,assets/screenshots/cash-register-reports.png,needed,Capture from live installed system
+Cash Register,Cash Register Approvals,pages/cash-register-approvals.html,assets/screenshots/cash-register-approvals.png,needed,Capture from live installed system
+Cash Register,Denominations,pages/denominations.html,assets/screenshots/denominations.png,needed,Capture from live installed system
+Cash Register,Register Settings,pages/register-settings.html,assets/screenshots/register-settings.png,needed,Capture from live installed system
+Cash Register,Operational Shifts,pages/operational-shifts.html,assets/screenshots/operational-shifts.png,needed,Capture from live installed system
+Kitchens,Kitchen Settings,pages/kitchen-settings.html,assets/screenshots/kitchen-settings.png,needed,Capture from live installed system
+Kitchens,All Kitchen KOT,pages/all-kitchen-kot.html,assets/screenshots/all-kitchen-kot.png,needed,Capture from live installed system
+Kitchens,Default Kitchen,pages/default-kitchen.html,assets/screenshots/default-kitchen.png,needed,Capture from live installed system
+Hotel,Front Desk Dashboard,pages/front-desk-dashboard.html,assets/screenshots/front-desk-dashboard.png,needed,Capture from live installed system
+Hotel,Room Types,pages/room-types.html,assets/screenshots/room-types.png,needed,Capture from live installed system
+Hotel,Rooms,pages/rooms.html,assets/screenshots/rooms.png,needed,Capture from live installed system
+Hotel,Room Status Board,pages/room-status-board.html,assets/screenshots/room-status-board.png,needed,Capture from live installed system
+Hotel,Guests,pages/guests.html,assets/screenshots/guests.png,needed,Capture from live installed system
+Hotel,Hotel Reservations,pages/hotel-reservations.html,assets/screenshots/hotel-reservations.png,needed,Capture from live installed system
+Hotel,Quotations,pages/quotations.html,assets/screenshots/quotations.png,needed,Capture from live installed system
+Hotel,Check-In,pages/check-in.html,assets/screenshots/check-in.png,needed,Capture from live installed system
+Hotel,Check-Out,pages/check-out.html,assets/screenshots/check-out.png,needed,Capture from live installed system
+Hotel,Rate Plans,pages/rate-plans.html,assets/screenshots/rate-plans.png,needed,Capture from live installed system
+Hotel,Housekeeping,pages/housekeeping.html,assets/screenshots/housekeeping.png,needed,Capture from live installed system
+Hotel,Room Service,pages/room-service.html,assets/screenshots/room-service.png,needed,Capture from live installed system
+Hotel,Stay History,pages/stay-history.html,assets/screenshots/stay-history.png,needed,Capture from live installed system
+Hotel,Banquet & Events,pages/banquet-events.html,assets/screenshots/banquet-events.png,needed,Capture from live installed system
+Hotel,Agreements,pages/agreements.html,assets/screenshots/agreements.png,needed,Capture from live installed system
+Hotel,Hotel Settings,pages/hotel-settings.html,assets/screenshots/hotel-settings.png,needed,Capture from live installed system
+Inventory,Inventory Dashboard,pages/inventory-dashboard.html,assets/screenshots/inventory-dashboard.png,needed,Capture from live installed system
+Inventory,Units,pages/units.html,assets/screenshots/units.png,needed,Capture from live installed system
+Inventory,Inventory Items,pages/inventory-items.html,assets/screenshots/inventory-items.png,needed,Capture from live installed system
+Inventory,Inventory Item Categories,pages/inventory-item-categories.html,assets/screenshots/inventory-item-categories.png,needed,Capture from live installed system
+Inventory,Inventory Stocks,pages/inventory-stocks.html,assets/screenshots/inventory-stocks.png,needed,Capture from live installed system
+Inventory,Inventory Movements,pages/inventory-movements.html,assets/screenshots/inventory-movements.png,needed,Capture from live installed system
+Inventory,Recipes,pages/recipes.html,assets/screenshots/recipes.png,needed,Capture from live installed system
+Inventory,Batch Recipes,pages/batch-recipes.html,assets/screenshots/batch-recipes.png,needed,Capture from live installed system
+Inventory,Batch Inventory,pages/batch-inventory.html,assets/screenshots/batch-inventory.png,needed,Capture from live installed system
+Inventory,Purchase Orders,pages/purchase-orders.html,assets/screenshots/purchase-orders.png,needed,Capture from live installed system
+Inventory,Suppliers,pages/suppliers.html,assets/screenshots/suppliers.png,needed,Capture from live installed system
+Inventory,Inventory Reports,pages/inventory-reports.html,assets/screenshots/inventory-reports.png,needed,Capture from live installed system
+Inventory,Batch Reports,pages/batch-reports.html,assets/screenshots/batch-reports.png,needed,Capture from live installed system
+Inventory,Inventory Settings,pages/inventory-settings.html,assets/screenshots/inventory-settings.png,needed,Capture from live installed system
+System Settings,Settings Overview,pages/settings-overview.html,assets/screenshots/settings-overview.png,needed,Capture from live installed system
+System Settings,Restaurant Settings,pages/restaurant-settings.html,assets/screenshots/restaurant-settings.png,needed,Capture from live installed system
+System Settings,Branch Settings,pages/branch-settings.html,assets/screenshots/branch-settings.png,needed,Capture from live installed system
+System Settings,Tax Settings,pages/tax-settings.html,assets/screenshots/tax-settings.png,needed,Capture from live installed system
+System Settings,Payment Gateway Settings,pages/payment-gateway-settings.html,assets/screenshots/payment-gateway-settings.png,needed,Capture from live installed system
+System Settings,Roles and Permissions,pages/roles-permissions.html,assets/screenshots/roles-permissions.png,needed,Capture from live installed system
+System Settings,Printer and KOT Settings,pages/printer-kot-settings.html,assets/screenshots/printer-kot-settings.png,needed,Capture from live installed system

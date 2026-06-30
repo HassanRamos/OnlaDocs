@@ -1,40 +1,34 @@
-# Restaurant Management System Documentation Website
+# Sorahub Restaurant Management Documentation
 
-This is a static HTML documentation package for client-facing restaurant management system training.
+Generated: 2026-06-30 08:17 UTC
+
+This is a static HTML documentation project for the restaurant management system.
+
+## How to open locally
+
+Open `index.html` in any modern browser.
 
 ## How to host
 
-1. Upload the full `restaurant-management-docs` folder to your hosting account.
-2. Point the public directory to `index.html` or upload the contents into your existing public documentation folder.
-3. Open `index.html` in a browser.
+Upload the full folder contents to any static hosting location, cPanel `public_html`, an Nginx folder, Apache folder, or subdomain. No database or backend is required.
 
-No database or backend is required.
+## Main folders
 
-## How to customize
+- `index.html` — home page and documentation menu map.
+- `pages/` — one HTML page per menu item.
+- `assets/css/styles.css` — site styling.
+- `assets/js/app.js` — navigation search and mobile menu.
+- `assets/screenshots/` — place your final screenshots here.
+- `assets/reference-menu-screenshots/` — menu screenshots used to plan the documentation structure.
+- `DOCS_PLAN.md` — the full documentation structure and screenshot plan.
+- `SOURCE_REFERENCES.md` — vendor documentation URLs supplied as reference links.
 
-- Edit the site title in the HTML files or replace `Restaurant Management System` with your own product name.
-- Replace placeholder SVG files in `assets/images/` with screenshots from your own installation.
-- Update colors in `assets/css/styles.css`.
-- Add your support phone number, email, or WhatsApp link in the footer if needed.
+## Updating screenshots
 
-## Included modules
+Each documentation page contains a screenshot placeholder with a suggested filename. Capture the real screen from your installed system, save it in `assets/screenshots/`, then edit the relevant HTML page to replace the placeholder with an image tag, for example:
 
-- Restaurant Menu Module
-- Restaurant Table Module
-- Restaurant Reservation Module
-- Restaurant POS Module
-- Restaurant Order Module
-- Restaurant Customer Module
-- Restaurant Staff Menu
-- Restaurant Payments Menu
-- Reports Menu
-- Restaurant Settings Menu
-- Operational Shifts
-- Waiter Table Assignment Module
-- Menu-to-Table Assignment
-- Daily Menu PDF Email
-- Due Payment Reports
+```html
+<img class="doc-screenshot" src="../assets/screenshots/pos.png" alt="POS screen">
+```
 
-## Notes
-
-The documentation content is written in original client-facing wording and structured around the modules in the restaurant system. It does not include third-party screenshots. Use screenshots from your own licensed installation for the most accurate client training experience.
+You can also keep the placeholders while the documentation is still being drafted.

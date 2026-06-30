@@ -1,0 +1,548 @@
+{
+  "generated_at": "2026-06-30T08:17:20.221222Z",
+  "sections": [
+    {
+      "title": "Getting Started",
+      "items": [
+        {
+          "title": "Quick Start Guide",
+          "slug": "quick-start",
+          "type": "guide",
+          "group": "Getting Started"
+        },
+        {
+          "title": "Dashboard",
+          "slug": "dashboard",
+          "group": "Getting Started"
+        },
+        {
+          "title": "Branch / Outlet Selector",
+          "slug": "branch-outlet-selector",
+          "group": "Getting Started"
+        },
+        {
+          "title": "Top Shortcuts: POS, Tables and Recent Orders",
+          "slug": "top-shortcuts",
+          "group": "Getting Started"
+        },
+        {
+          "title": "Screenshot Checklist",
+          "slug": "screenshot-checklist",
+          "type": "guide",
+          "group": "Getting Started"
+        }
+      ]
+    },
+    {
+      "title": "Menu",
+      "items": [
+        {
+          "title": "Menus",
+          "slug": "menus",
+          "group": "Menu"
+        },
+        {
+          "title": "Menu Items",
+          "slug": "menu-items",
+          "group": "Menu"
+        },
+        {
+          "title": "Item Categories",
+          "slug": "item-categories",
+          "group": "Menu"
+        },
+        {
+          "title": "Modifier Groups",
+          "slug": "modifier-groups",
+          "group": "Menu"
+        },
+        {
+          "title": "Item Modifiers",
+          "slug": "item-modifiers",
+          "group": "Menu"
+        },
+        {
+          "title": "Menu to Table Assignment",
+          "slug": "menu-to-table-assignment",
+          "group": "Menu"
+        },
+        {
+          "title": "Daily Menu PDF Email",
+          "slug": "daily-menu-pdf-email",
+          "group": "Menu"
+        }
+      ]
+    },
+    {
+      "title": "Tables",
+      "items": [
+        {
+          "title": "Areas",
+          "slug": "areas",
+          "group": "Tables"
+        },
+        {
+          "title": "Tables",
+          "slug": "tables",
+          "group": "Tables"
+        },
+        {
+          "title": "QR Codes",
+          "slug": "qr-codes",
+          "group": "Tables"
+        },
+        {
+          "title": "Waiter Table Assignment",
+          "slug": "waiter-table-assignment",
+          "group": "Tables"
+        }
+      ]
+    },
+    {
+      "title": "Front of House",
+      "items": [
+        {
+          "title": "Waiter Requests",
+          "slug": "waiter-requests",
+          "group": "Front of House"
+        },
+        {
+          "title": "Reservations",
+          "slug": "reservations",
+          "group": "Front of House"
+        },
+        {
+          "title": "POS",
+          "slug": "pos",
+          "group": "Front of House"
+        },
+        {
+          "title": "Orders",
+          "slug": "orders",
+          "group": "Front of House"
+        },
+        {
+          "title": "Customers",
+          "slug": "customers",
+          "group": "Front of House"
+        },
+        {
+          "title": "Staff",
+          "slug": "staff",
+          "group": "Front of House"
+        }
+      ]
+    },
+    {
+      "title": "Delivery Executive",
+      "items": [
+        {
+          "title": "Delivery Executive Overview",
+          "slug": "delivery-executive-overview",
+          "group": "Delivery Executive"
+        },
+        {
+          "title": "Delivery Executives",
+          "slug": "delivery-executives",
+          "group": "Delivery Executive"
+        },
+        {
+          "title": "Delivery Assignments",
+          "slug": "delivery-assignments",
+          "group": "Delivery Executive"
+        },
+        {
+          "title": "Delivery App Report",
+          "slug": "delivery-app-report",
+          "group": "Delivery Executive"
+        },
+        {
+          "title": "COD Report",
+          "slug": "cod-report",
+          "group": "Delivery Executive"
+        }
+      ]
+    },
+    {
+      "title": "Expenses",
+      "items": [
+        {
+          "title": "Expenses",
+          "slug": "expenses",
+          "group": "Expenses"
+        },
+        {
+          "title": "Recurring Expenses",
+          "slug": "recurring-expenses",
+          "group": "Expenses"
+        },
+        {
+          "title": "Expense Categories",
+          "slug": "expense-categories",
+          "group": "Expenses"
+        },
+        {
+          "title": "Expense Reports",
+          "slug": "expense-reports",
+          "group": "Expenses"
+        }
+      ]
+    },
+    {
+      "title": "Payments",
+      "items": [
+        {
+          "title": "Payments",
+          "slug": "payments",
+          "group": "Payments"
+        },
+        {
+          "title": "Due Payments",
+          "slug": "due-payments",
+          "group": "Payments"
+        },
+        {
+          "title": "Due Payments Received Report",
+          "slug": "due-payments-received-report",
+          "group": "Payments"
+        },
+        {
+          "title": "Due Payment Reports",
+          "slug": "due-payment-reports",
+          "group": "Payments"
+        },
+        {
+          "title": "Refund Report",
+          "slug": "refund-report",
+          "group": "Payments"
+        },
+        {
+          "title": "Tax Report",
+          "slug": "tax-report",
+          "group": "Payments"
+        }
+      ]
+    },
+    {
+      "title": "Reports",
+      "items": [
+        {
+          "title": "Reports Overview",
+          "slug": "reports-overview",
+          "group": "Reports"
+        },
+        {
+          "title": "Sales Report",
+          "slug": "sales-report",
+          "group": "Reports"
+        },
+        {
+          "title": "Item Report",
+          "slug": "item-report",
+          "group": "Reports"
+        },
+        {
+          "title": "Category Report",
+          "slug": "category-report",
+          "group": "Reports"
+        },
+        {
+          "title": "POS Machine Report",
+          "slug": "pos-machine-report",
+          "group": "Reports"
+        },
+        {
+          "title": "Cancelled Order Report",
+          "slug": "cancelled-order-report",
+          "group": "Reports"
+        },
+        {
+          "title": "Removed KOT Item Report",
+          "slug": "removed-kot-item-report",
+          "group": "Reports"
+        },
+        {
+          "title": "Loyalty Reports",
+          "slug": "loyalty-reports",
+          "group": "Reports"
+        },
+        {
+          "title": "Order Report",
+          "slug": "order-report",
+          "group": "Reports"
+        }
+      ]
+    },
+    {
+      "title": "AI Assistant",
+      "items": [
+        {
+          "title": "AI Assistant",
+          "slug": "ai-assistant",
+          "group": "AI Assistant"
+        }
+      ]
+    },
+    {
+      "title": "Cash Register",
+      "items": [
+        {
+          "title": "Register Dashboard",
+          "slug": "register-dashboard",
+          "group": "Cash Register"
+        },
+        {
+          "title": "Cash Register",
+          "slug": "cash-register",
+          "group": "Cash Register"
+        },
+        {
+          "title": "Cash Register Reports",
+          "slug": "cash-register-reports",
+          "group": "Cash Register"
+        },
+        {
+          "title": "Cash Register Approvals",
+          "slug": "cash-register-approvals",
+          "group": "Cash Register"
+        },
+        {
+          "title": "Denominations",
+          "slug": "denominations",
+          "group": "Cash Register"
+        },
+        {
+          "title": "Register Settings",
+          "slug": "register-settings",
+          "group": "Cash Register"
+        },
+        {
+          "title": "Operational Shifts",
+          "slug": "operational-shifts",
+          "group": "Cash Register"
+        }
+      ]
+    },
+    {
+      "title": "Kitchens",
+      "items": [
+        {
+          "title": "Kitchen Settings",
+          "slug": "kitchen-settings",
+          "group": "Kitchens"
+        },
+        {
+          "title": "All Kitchen KOT",
+          "slug": "all-kitchen-kot",
+          "group": "Kitchens"
+        },
+        {
+          "title": "Default Kitchen",
+          "slug": "default-kitchen",
+          "group": "Kitchens"
+        }
+      ]
+    },
+    {
+      "title": "Hotel",
+      "items": [
+        {
+          "title": "Front Desk Dashboard",
+          "slug": "front-desk-dashboard",
+          "group": "Hotel"
+        },
+        {
+          "title": "Room Types",
+          "slug": "room-types",
+          "group": "Hotel"
+        },
+        {
+          "title": "Rooms",
+          "slug": "rooms",
+          "group": "Hotel"
+        },
+        {
+          "title": "Room Status Board",
+          "slug": "room-status-board",
+          "group": "Hotel"
+        },
+        {
+          "title": "Guests",
+          "slug": "guests",
+          "group": "Hotel"
+        },
+        {
+          "title": "Hotel Reservations",
+          "slug": "hotel-reservations",
+          "group": "Hotel"
+        },
+        {
+          "title": "Quotations",
+          "slug": "quotations",
+          "group": "Hotel"
+        },
+        {
+          "title": "Check-In",
+          "slug": "check-in",
+          "group": "Hotel"
+        },
+        {
+          "title": "Check-Out",
+          "slug": "check-out",
+          "group": "Hotel"
+        },
+        {
+          "title": "Rate Plans",
+          "slug": "rate-plans",
+          "group": "Hotel"
+        },
+        {
+          "title": "Housekeeping",
+          "slug": "housekeeping",
+          "group": "Hotel"
+        },
+        {
+          "title": "Room Service",
+          "slug": "room-service",
+          "group": "Hotel"
+        },
+        {
+          "title": "Stay History",
+          "slug": "stay-history",
+          "group": "Hotel"
+        },
+        {
+          "title": "Banquet & Events",
+          "slug": "banquet-events",
+          "group": "Hotel"
+        },
+        {
+          "title": "Agreements",
+          "slug": "agreements",
+          "group": "Hotel"
+        },
+        {
+          "title": "Hotel Settings",
+          "slug": "hotel-settings",
+          "group": "Hotel"
+        }
+      ]
+    },
+    {
+      "title": "Inventory",
+      "items": [
+        {
+          "title": "Inventory Dashboard",
+          "slug": "inventory-dashboard",
+          "group": "Inventory"
+        },
+        {
+          "title": "Units",
+          "slug": "units",
+          "group": "Inventory"
+        },
+        {
+          "title": "Inventory Items",
+          "slug": "inventory-items",
+          "group": "Inventory"
+        },
+        {
+          "title": "Inventory Item Categories",
+          "slug": "inventory-item-categories",
+          "group": "Inventory"
+        },
+        {
+          "title": "Inventory Stocks",
+          "slug": "inventory-stocks",
+          "group": "Inventory"
+        },
+        {
+          "title": "Inventory Movements",
+          "slug": "inventory-movements",
+          "group": "Inventory"
+        },
+        {
+          "title": "Recipes",
+          "slug": "recipes",
+          "group": "Inventory"
+        },
+        {
+          "title": "Batch Recipes",
+          "slug": "batch-recipes",
+          "group": "Inventory"
+        },
+        {
+          "title": "Batch Inventory",
+          "slug": "batch-inventory",
+          "group": "Inventory"
+        },
+        {
+          "title": "Purchase Orders",
+          "slug": "purchase-orders",
+          "group": "Inventory"
+        },
+        {
+          "title": "Suppliers",
+          "slug": "suppliers",
+          "group": "Inventory"
+        },
+        {
+          "title": "Inventory Reports",
+          "slug": "inventory-reports",
+          "group": "Inventory"
+        },
+        {
+          "title": "Batch Reports",
+          "slug": "batch-reports",
+          "group": "Inventory"
+        },
+        {
+          "title": "Inventory Settings",
+          "slug": "inventory-settings",
+          "group": "Inventory"
+        }
+      ]
+    },
+    {
+      "title": "System Settings",
+      "items": [
+        {
+          "title": "Settings Overview",
+          "slug": "settings-overview",
+          "group": "System Settings"
+        },
+        {
+          "title": "Restaurant Settings",
+          "slug": "restaurant-settings",
+          "group": "System Settings"
+        },
+        {
+          "title": "Branch Settings",
+          "slug": "branch-settings",
+          "group": "System Settings"
+        },
+        {
+          "title": "Tax Settings",
+          "slug": "tax-settings",
+          "group": "System Settings"
+        },
+        {
+          "title": "Payment Gateway Settings",
+          "slug": "payment-gateway-settings",
+          "group": "System Settings"
+        },
+        {
+          "title": "Roles and Permissions",
+          "slug": "roles-permissions",
+          "group": "System Settings"
+        },
+        {
+          "title": "Printer and KOT Settings",
+          "slug": "printer-kot-settings",
+          "group": "System Settings"
+        }
+      ]
+    }
+  ],
+  "source_reference_count": 15
+}

@@ -3,145 +3,159 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Documentation Home · Restaurant Management System</title>
-  <meta name="description" content="Client documentation for the restaurant management system.">
+  <title>Sorahub Restaurant Management Documentation</title>
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-  <div class="topbar"><strong>Restaurant Docs</strong><button class="mobile-toggle" data-toggle>Menu</button></div>
-  <div class="layout">
-    
-    <aside class="sidebar">
-      <div class="brand">
-        <div class="logo">R</div>
-        <div><h1>Restaurant Management System</h1><p>Client User Guide</p></div>
-      </div>
-      <div class="search-box"><input id="docSearch" type="search" placeholder="Search modules..."></div>
-      <nav>
-        <div class="nav-section">
-          <p class="nav-title">Start</p>
-          <a class="nav-link active" href="index.html"><span class="emoji">🏠</span><span>Documentation Home</span></a>
-          <a class="nav-link " href="quick-start.html"><span class="emoji">🚀</span><span>Quick Start Guide</span></a>
-        </div>
-    
-<div class="nav-section"><p class="nav-title">Restaurant Setup</p>
-<a data-module-link class="nav-link " href="modules/restaurant-menu-module.html"><span class="emoji">🍽️</span><span>Restaurant Menu Module</span></a>
-<a data-module-link class="nav-link " href="modules/restaurant-table-module.html"><span class="emoji">🪑</span><span>Restaurant Table Module</span></a>
+  <button class="mobile-menu" id="mobileMenu">☰ Menu</button>
+  <aside class="sidebar">
+    <div class="brand"><div class="brand-mark">S</div><div><strong>Sorahub</strong><span>Restaurant Docs</span></div></div>
+    <input id="navSearch" class="nav-search" placeholder="Search documentation...">
+    <nav><div class="nav-group"><div class="nav-group-title">Getting Started</div>
+<a class="nav-link" data-title="quick start guide" href="pages/quick-start.html">Quick Start Guide</a>
+<a class="nav-link" data-title="dashboard" href="pages/dashboard.html">Dashboard</a>
+<a class="nav-link" data-title="branch / outlet selector" href="pages/branch-outlet-selector.html">Branch / Outlet Selector</a>
+<a class="nav-link" data-title="top shortcuts: pos, tables and recent orders" href="pages/top-shortcuts.html">Top Shortcuts: POS, Tables and Recent Orders</a>
+<a class="nav-link" data-title="screenshot checklist" href="pages/screenshot-checklist.html">Screenshot Checklist</a>
 </div>
-<div class="nav-section"><p class="nav-title">Guest Management</p>
-<a data-module-link class="nav-link " href="modules/restaurant-reservation-module.html"><span class="emoji">📅</span><span>Restaurant Reservation Module</span></a>
-<a data-module-link class="nav-link " href="modules/restaurant-customer-module.html"><span class="emoji">👥</span><span>Restaurant Customer Module</span></a>
+<div class="nav-group"><div class="nav-group-title">Menu</div>
+<a class="nav-link" data-title="menus" href="pages/menus.html">Menus</a>
+<a class="nav-link" data-title="menu items" href="pages/menu-items.html">Menu Items</a>
+<a class="nav-link" data-title="item categories" href="pages/item-categories.html">Item Categories</a>
+<a class="nav-link" data-title="modifier groups" href="pages/modifier-groups.html">Modifier Groups</a>
+<a class="nav-link" data-title="item modifiers" href="pages/item-modifiers.html">Item Modifiers</a>
+<a class="nav-link" data-title="menu to table assignment" href="pages/menu-to-table-assignment.html">Menu to Table Assignment</a>
+<a class="nav-link" data-title="daily menu pdf email" href="pages/daily-menu-pdf-email.html">Daily Menu PDF Email</a>
 </div>
-<div class="nav-section"><p class="nav-title">Sales &amp; Service</p>
-<a data-module-link class="nav-link " href="modules/restaurant-pos-module.html"><span class="emoji">🧾</span><span>Restaurant POS Module</span></a>
-<a data-module-link class="nav-link " href="modules/restaurant-order-module.html"><span class="emoji">📦</span><span>Restaurant Order Module</span></a>
+<div class="nav-group"><div class="nav-group-title">Tables</div>
+<a class="nav-link" data-title="areas" href="pages/areas.html">Areas</a>
+<a class="nav-link" data-title="tables" href="pages/tables.html">Tables</a>
+<a class="nav-link" data-title="qr codes" href="pages/qr-codes.html">QR Codes</a>
+<a class="nav-link" data-title="waiter table assignment" href="pages/waiter-table-assignment.html">Waiter Table Assignment</a>
 </div>
-<div class="nav-section"><p class="nav-title">Administration</p>
-<a data-module-link class="nav-link " href="modules/restaurant-staff-menu.html"><span class="emoji">👨‍🍳</span><span>Restaurant Staff Menu</span></a>
-<a data-module-link class="nav-link " href="modules/restaurant-settings-menu.html"><span class="emoji">⚙️</span><span>Restaurant Settings Menu</span></a>
+<div class="nav-group"><div class="nav-group-title">Front of House</div>
+<a class="nav-link" data-title="waiter requests" href="pages/waiter-requests.html">Waiter Requests</a>
+<a class="nav-link" data-title="reservations" href="pages/reservations.html">Reservations</a>
+<a class="nav-link" data-title="pos" href="pages/pos.html">POS</a>
+<a class="nav-link" data-title="orders" href="pages/orders.html">Orders</a>
+<a class="nav-link" data-title="customers" href="pages/customers.html">Customers</a>
+<a class="nav-link" data-title="staff" href="pages/staff.html">Staff</a>
 </div>
-<div class="nav-section"><p class="nav-title">Sales &amp; Finance</p>
-<a data-module-link class="nav-link " href="modules/restaurant-payments-menu.html"><span class="emoji">💳</span><span>Restaurant Payments Menu</span></a>
-<a data-module-link class="nav-link " href="modules/reports-menu.html"><span class="emoji">📊</span><span>Reports Menu</span></a>
-<a data-module-link class="nav-link " href="modules/due-payment-reports.html"><span class="emoji">🧮</span><span>Due Payment Reports</span></a>
+<div class="nav-group"><div class="nav-group-title">Delivery Executive</div>
+<a class="nav-link" data-title="delivery executive overview" href="pages/delivery-executive-overview.html">Delivery Executive Overview</a>
+<a class="nav-link" data-title="delivery executives" href="pages/delivery-executives.html">Delivery Executives</a>
+<a class="nav-link" data-title="delivery assignments" href="pages/delivery-assignments.html">Delivery Assignments</a>
+<a class="nav-link" data-title="delivery app report" href="pages/delivery-app-report.html">Delivery App Report</a>
+<a class="nav-link" data-title="cod report" href="pages/cod-report.html">COD Report</a>
 </div>
-<div class="nav-section"><p class="nav-title">Operations</p>
-<a data-module-link class="nav-link " href="modules/operational-shifts.html"><span class="emoji">⏱️</span><span>Operational Shifts</span></a>
-<a data-module-link class="nav-link " href="modules/waiter-table-assignment-module.html"><span class="emoji">🔔</span><span>Waiter Table Assignment Module</span></a>
-<a data-module-link class="nav-link " href="modules/menu-to-table-assignment.html"><span class="emoji">🧩</span><span>Menu-to-Table Assignment</span></a>
+<div class="nav-group"><div class="nav-group-title">Expenses</div>
+<a class="nav-link" data-title="expenses" href="pages/expenses.html">Expenses</a>
+<a class="nav-link" data-title="recurring expenses" href="pages/recurring-expenses.html">Recurring Expenses</a>
+<a class="nav-link" data-title="expense categories" href="pages/expense-categories.html">Expense Categories</a>
+<a class="nav-link" data-title="expense reports" href="pages/expense-reports.html">Expense Reports</a>
 </div>
-<div class="nav-section"><p class="nav-title">Automation</p>
-<a data-module-link class="nav-link " href="modules/daily-menu-pdf-email.html"><span class="emoji">📧</span><span>Daily Menu PDF Email</span></a>
+<div class="nav-group"><div class="nav-group-title">Payments</div>
+<a class="nav-link" data-title="payments" href="pages/payments.html">Payments</a>
+<a class="nav-link" data-title="due payments" href="pages/due-payments.html">Due Payments</a>
+<a class="nav-link" data-title="due payments received report" href="pages/due-payments-received-report.html">Due Payments Received Report</a>
+<a class="nav-link" data-title="due payment reports" href="pages/due-payment-reports.html">Due Payment Reports</a>
+<a class="nav-link" data-title="refund report" href="pages/refund-report.html">Refund Report</a>
+<a class="nav-link" data-title="tax report" href="pages/tax-report.html">Tax Report</a>
 </div>
-</nav></aside>
-    <main class="main">
-      
-<section class="hero">
-  <div class="eyebrow">Client User Guide</div>
-  <h2>Restaurant operations documentation for admins, managers, waiters, and cashiers.</h2>
-  <p>This documentation explains how to use the main restaurant management modules: menus, tables, reservations, POS, orders, customers, staff, payments, reports, settings, shifts, assignments, and due-payment reporting.</p>
-  <div class="hero-actions">
-    <a class="btn primary" href="quick-start.html">Start with Quick Guide</a>
-    <a class="btn" href="#modules">Browse Modules</a>
-  </div>
-</section>
-<section class="grid" id="modules">
-  
-      <a data-module-card class="card module-card" href="modules/restaurant-menu-module.html">
-        <div class="emoji">🍽️</div>
-        <div><span class="pill">Restaurant Setup</span><h3>Restaurant Menu Module</h3><p>Create menus, menu items, and item categories so customers and staff can quickly find the right items during ordering.</p></div>
-      </a>
-      <a data-module-card class="card module-card" href="modules/restaurant-table-module.html">
-        <div class="emoji">🪑</div>
-        <div><span class="pill">Restaurant Setup</span><h3>Restaurant Table Module</h3><p>Manage restaurant areas, dining tables, seating capacity, table status, and QR codes for table-based ordering.</p></div>
-      </a>
-      <a data-module-card class="card module-card" href="modules/restaurant-reservation-module.html">
-        <div class="emoji">📅</div>
-        <div><span class="pill">Guest Management</span><h3>Restaurant Reservation Module</h3><p>Record and manage advance table bookings so the restaurant can prepare seating before guests arrive.</p></div>
-      </a>
-      <a data-module-card class="card module-card" href="modules/restaurant-pos-module.html">
-        <div class="emoji">🧾</div>
-        <div><span class="pill">Sales &amp; Service</span><h3>Restaurant POS Module</h3><p>Use the Point of Sale screen to create orders, send KOTs, process bills, and collect payments during daily restaurant service.</p></div>
-      </a>
-      <a data-module-card class="card module-card" href="modules/restaurant-order-module.html">
-        <div class="emoji">📦</div>
-        <div><span class="pill">Sales &amp; Service</span><h3>Restaurant Order Module</h3><p>Monitor customer orders and kitchen tickets, including KOT status such as preparing, ready, cancelled, or completed depending on your setup.</p></div>
-      </a>
-      <a data-module-card class="card module-card" href="modules/restaurant-customer-module.html">
-        <div class="emoji">👥</div>
-        <div><span class="pill">Guest Management</span><h3>Restaurant Customer Module</h3><p>Keep customer records and view order history linked to each customer.</p></div>
-      </a>
-      <a data-module-card class="card module-card" href="modules/restaurant-staff-menu.html">
-        <div class="emoji">👨‍🍳</div>
-        <div><span class="pill">Administration</span><h3>Restaurant Staff Menu</h3><p>Add restaurant staff members and assign roles so each person has the right level of access.</p></div>
-      </a>
-      <a data-module-card class="card module-card" href="modules/restaurant-payments-menu.html">
-        <div class="emoji">💳</div>
-        <div><span class="pill">Sales &amp; Finance</span><h3>Restaurant Payments Menu</h3><p>Review payment records, payment methods, order numbers, transaction dates, and pending balances.</p></div>
-      </a>
-      <a data-module-card class="card module-card" href="modules/reports-menu.html">
-        <div class="emoji">📊</div>
-        <div><span class="pill">Sales &amp; Finance</span><h3>Reports Menu</h3><p>Use reports to understand sales performance by period, item, and category.</p></div>
-      </a>
-      <a data-module-card class="card module-card" href="modules/restaurant-settings-menu.html">
-        <div class="emoji">⚙️</div>
-        <div><span class="pill">Administration</span><h3>Restaurant Settings Menu</h3><p>Configure restaurant details, app settings, branches, currency, emails, taxes, payment gateways, theme, staff roles, and reservations.</p></div>
-      </a>
-      <a data-module-card class="card module-card" href="modules/operational-shifts.html">
-        <div class="emoji">⏱️</div>
-        <div><span class="pill">Operations</span><h3>Operational Shifts</h3><p>Define business-day boundaries so orders, dashboard values, and reports follow the restaurant’s actual operating shifts instead of only calendar days.</p></div>
-      </a>
-      <a data-module-card class="card module-card" href="modules/waiter-table-assignment-module.html">
-        <div class="emoji">🔔</div>
-        <div><span class="pill">Operations</span><h3>Waiter Table Assignment Module</h3><p>Assign primary and secondary waiters to tables so table orders notify the right staff members.</p></div>
-      </a>
-      <a data-module-card class="card module-card" href="modules/menu-to-table-assignment.html">
-        <div class="emoji">🧩</div>
-        <div><span class="pill">Operations</span><h3>Menu-to-Table Assignment</h3><p>Control which menu items appear for specific tables when customers order through table QR codes.</p></div>
-      </a>
-      <a data-module-card class="card module-card" href="modules/daily-menu-pdf-email.html">
-        <div class="emoji">📧</div>
-        <div><span class="pill">Automation</span><h3>Daily Menu PDF Email</h3><p>Send a daily PDF copy of the restaurant menu to the administrator at a scheduled time.</p></div>
-      </a>
-      <a data-module-card class="card module-card" href="modules/due-payment-reports.html">
-        <div class="emoji">🧮</div>
-        <div><span class="pill">Sales &amp; Finance</span><h3>Due Payment Reports</h3><p>Track partially paid orders, outstanding balances, and later settlement of due amounts.</p></div>
-      </a>
-</section>
-<section class="content-card">
-  <h2>How to use this documentation</h2>
-  <table class="table">
-    <tr><th>User type</th><th>Recommended sections</th></tr>
-    <tr><td>Restaurant Owner / Admin</td><td>Settings, Staff, Reports, Payments, Due Payment Reports, Operational Shifts</td></tr>
-    <tr><td>Manager</td><td>Menu, Table, Reservation, Orders, Waiter Assignment, Menu-to-Table Assignment</td></tr>
-    <tr><td>Cashier</td><td>POS, Orders, Payments, Due Payment Reports</td></tr>
-    <tr><td>Waiter</td><td>POS, Orders, Tables, Waiter Table Assignment</td></tr>
-  </table>
-</section>
-
-      <div class="footer">© Restaurant Management System. Customize this documentation with your restaurant system name, support contacts, and screenshots before publishing.</div>
-    </main>
-  </div>
+<div class="nav-group"><div class="nav-group-title">Reports</div>
+<a class="nav-link" data-title="reports overview" href="pages/reports-overview.html">Reports Overview</a>
+<a class="nav-link" data-title="sales report" href="pages/sales-report.html">Sales Report</a>
+<a class="nav-link" data-title="item report" href="pages/item-report.html">Item Report</a>
+<a class="nav-link" data-title="category report" href="pages/category-report.html">Category Report</a>
+<a class="nav-link" data-title="pos machine report" href="pages/pos-machine-report.html">POS Machine Report</a>
+<a class="nav-link" data-title="cancelled order report" href="pages/cancelled-order-report.html">Cancelled Order Report</a>
+<a class="nav-link" data-title="removed kot item report" href="pages/removed-kot-item-report.html">Removed KOT Item Report</a>
+<a class="nav-link" data-title="loyalty reports" href="pages/loyalty-reports.html">Loyalty Reports</a>
+<a class="nav-link" data-title="order report" href="pages/order-report.html">Order Report</a>
+</div>
+<div class="nav-group"><div class="nav-group-title">AI Assistant</div>
+<a class="nav-link" data-title="ai assistant" href="pages/ai-assistant.html">AI Assistant</a>
+</div>
+<div class="nav-group"><div class="nav-group-title">Cash Register</div>
+<a class="nav-link" data-title="register dashboard" href="pages/register-dashboard.html">Register Dashboard</a>
+<a class="nav-link" data-title="cash register" href="pages/cash-register.html">Cash Register</a>
+<a class="nav-link" data-title="cash register reports" href="pages/cash-register-reports.html">Cash Register Reports</a>
+<a class="nav-link" data-title="cash register approvals" href="pages/cash-register-approvals.html">Cash Register Approvals</a>
+<a class="nav-link" data-title="denominations" href="pages/denominations.html">Denominations</a>
+<a class="nav-link" data-title="register settings" href="pages/register-settings.html">Register Settings</a>
+<a class="nav-link" data-title="operational shifts" href="pages/operational-shifts.html">Operational Shifts</a>
+</div>
+<div class="nav-group"><div class="nav-group-title">Kitchens</div>
+<a class="nav-link" data-title="kitchen settings" href="pages/kitchen-settings.html">Kitchen Settings</a>
+<a class="nav-link" data-title="all kitchen kot" href="pages/all-kitchen-kot.html">All Kitchen KOT</a>
+<a class="nav-link" data-title="default kitchen" href="pages/default-kitchen.html">Default Kitchen</a>
+</div>
+<div class="nav-group"><div class="nav-group-title">Hotel</div>
+<a class="nav-link" data-title="front desk dashboard" href="pages/front-desk-dashboard.html">Front Desk Dashboard</a>
+<a class="nav-link" data-title="room types" href="pages/room-types.html">Room Types</a>
+<a class="nav-link" data-title="rooms" href="pages/rooms.html">Rooms</a>
+<a class="nav-link" data-title="room status board" href="pages/room-status-board.html">Room Status Board</a>
+<a class="nav-link" data-title="guests" href="pages/guests.html">Guests</a>
+<a class="nav-link" data-title="hotel reservations" href="pages/hotel-reservations.html">Hotel Reservations</a>
+<a class="nav-link" data-title="quotations" href="pages/quotations.html">Quotations</a>
+<a class="nav-link" data-title="check-in" href="pages/check-in.html">Check-In</a>
+<a class="nav-link" data-title="check-out" href="pages/check-out.html">Check-Out</a>
+<a class="nav-link" data-title="rate plans" href="pages/rate-plans.html">Rate Plans</a>
+<a class="nav-link" data-title="housekeeping" href="pages/housekeeping.html">Housekeeping</a>
+<a class="nav-link" data-title="room service" href="pages/room-service.html">Room Service</a>
+<a class="nav-link" data-title="stay history" href="pages/stay-history.html">Stay History</a>
+<a class="nav-link" data-title="banquet &amp; events" href="pages/banquet-events.html">Banquet &amp; Events</a>
+<a class="nav-link" data-title="agreements" href="pages/agreements.html">Agreements</a>
+<a class="nav-link" data-title="hotel settings" href="pages/hotel-settings.html">Hotel Settings</a>
+</div>
+<div class="nav-group"><div class="nav-group-title">Inventory</div>
+<a class="nav-link" data-title="inventory dashboard" href="pages/inventory-dashboard.html">Inventory Dashboard</a>
+<a class="nav-link" data-title="units" href="pages/units.html">Units</a>
+<a class="nav-link" data-title="inventory items" href="pages/inventory-items.html">Inventory Items</a>
+<a class="nav-link" data-title="inventory item categories" href="pages/inventory-item-categories.html">Inventory Item Categories</a>
+<a class="nav-link" data-title="inventory stocks" href="pages/inventory-stocks.html">Inventory Stocks</a>
+<a class="nav-link" data-title="inventory movements" href="pages/inventory-movements.html">Inventory Movements</a>
+<a class="nav-link" data-title="recipes" href="pages/recipes.html">Recipes</a>
+<a class="nav-link" data-title="batch recipes" href="pages/batch-recipes.html">Batch Recipes</a>
+<a class="nav-link" data-title="batch inventory" href="pages/batch-inventory.html">Batch Inventory</a>
+<a class="nav-link" data-title="purchase orders" href="pages/purchase-orders.html">Purchase Orders</a>
+<a class="nav-link" data-title="suppliers" href="pages/suppliers.html">Suppliers</a>
+<a class="nav-link" data-title="inventory reports" href="pages/inventory-reports.html">Inventory Reports</a>
+<a class="nav-link" data-title="batch reports" href="pages/batch-reports.html">Batch Reports</a>
+<a class="nav-link" data-title="inventory settings" href="pages/inventory-settings.html">Inventory Settings</a>
+</div>
+<div class="nav-group"><div class="nav-group-title">System Settings</div>
+<a class="nav-link" data-title="settings overview" href="pages/settings-overview.html">Settings Overview</a>
+<a class="nav-link" data-title="restaurant settings" href="pages/restaurant-settings.html">Restaurant Settings</a>
+<a class="nav-link" data-title="branch settings" href="pages/branch-settings.html">Branch Settings</a>
+<a class="nav-link" data-title="tax settings" href="pages/tax-settings.html">Tax Settings</a>
+<a class="nav-link" data-title="payment gateway settings" href="pages/payment-gateway-settings.html">Payment Gateway Settings</a>
+<a class="nav-link" data-title="roles and permissions" href="pages/roles-permissions.html">Roles and Permissions</a>
+<a class="nav-link" data-title="printer and kot settings" href="pages/printer-kot-settings.html">Printer and KOT Settings</a>
+</div></nav>
+  </aside>
+  <main class="content">
+    <section class="hero">
+      <div class="eyebrow">Client-facing documentation package</div>
+      <h1>Restaurant Management System User Guide</h1>
+      <p>This static documentation site is organized according to the menu structure visible in your installed system: restaurant operations, POS, tables, payments, reports, cash register, kitchen, hotel, inventory and system settings.</p>
+      <div class="hero-actions"><a class="button" href="pages/quick-start.html">Start with Quick Guide</a><a class="button muted" href="DOCS_PLAN.md">Open Documentation Plan</a></div>
+    </section>
+    <section class="card">
+      <h2>How to use this package</h2>
+      <ol>
+        <li>Open <strong>index.html</strong> in a browser to review the documentation locally.</li>
+        <li>Replace screenshot placeholders with screenshots from your installed SoraHub restaurant system.</li>
+        <li>Upload this folder to your hosting account, cPanel public_html folder, subdomain, or documentation site.</li>
+        <li>Use the Print / Save PDF button on any page to produce printable handouts.</li>
+      </ol>
+    </section>
+    <section class="card warning">
+      <h2>Important editing note</h2>
+      <p>The pages are written for your system workflow and menu layout. Before sharing with clients, add your real screenshots and adjust any wording where your installed version uses a different button name, permission, branch setting or enabled module.</p>
+    </section>
+    <section class="module-section"><h2>Getting Started</h2><div class="module-grid"><a class="module-card" href="pages/quick-start.html"><span>Quick Start Guide</span><small>Getting Started</small></a><a class="module-card" href="pages/dashboard.html"><span>Dashboard</span><small>Getting Started</small></a><a class="module-card" href="pages/branch-outlet-selector.html"><span>Branch / Outlet Selector</span><small>Getting Started</small></a><a class="module-card" href="pages/top-shortcuts.html"><span>Top Shortcuts: POS, Tables and Recent Orders</span><small>Getting Started</small></a><a class="module-card" href="pages/screenshot-checklist.html"><span>Screenshot Checklist</span><small>Getting Started</small></a></div></section><section class="module-section"><h2>Menu</h2><div class="module-grid"><a class="module-card" href="pages/menus.html"><span>Menus</span><small>Menu</small></a><a class="module-card" href="pages/menu-items.html"><span>Menu Items</span><small>Menu</small></a><a class="module-card" href="pages/item-categories.html"><span>Item Categories</span><small>Menu</small></a><a class="module-card" href="pages/modifier-groups.html"><span>Modifier Groups</span><small>Menu</small></a><a class="module-card" href="pages/item-modifiers.html"><span>Item Modifiers</span><small>Menu</small></a><a class="module-card" href="pages/menu-to-table-assignment.html"><span>Menu to Table Assignment</span><small>Menu</small></a><a class="module-card" href="pages/daily-menu-pdf-email.html"><span>Daily Menu PDF Email</span><small>Menu</small></a></div></section><section class="module-section"><h2>Tables</h2><div class="module-grid"><a class="module-card" href="pages/areas.html"><span>Areas</span><small>Tables</small></a><a class="module-card" href="pages/tables.html"><span>Tables</span><small>Tables</small></a><a class="module-card" href="pages/qr-codes.html"><span>QR Codes</span><small>Tables</small></a><a class="module-card" href="pages/waiter-table-assignment.html"><span>Waiter Table Assignment</span><small>Tables</small></a></div></section><section class="module-section"><h2>Front of House</h2><div class="module-grid"><a class="module-card" href="pages/waiter-requests.html"><span>Waiter Requests</span><small>Front of House</small></a><a class="module-card" href="pages/reservations.html"><span>Reservations</span><small>Front of House</small></a><a class="module-card" href="pages/pos.html"><span>POS</span><small>Front of House</small></a><a class="module-card" href="pages/orders.html"><span>Orders</span><small>Front of House</small></a><a class="module-card" href="pages/customers.html"><span>Customers</span><small>Front of House</small></a><a class="module-card" href="pages/staff.html"><span>Staff</span><small>Front of House</small></a></div></section><section class="module-section"><h2>Delivery Executive</h2><div class="module-grid"><a class="module-card" href="pages/delivery-executive-overview.html"><span>Delivery Executive Overview</span><small>Delivery Executive</small></a><a class="module-card" href="pages/delivery-executives.html"><span>Delivery Executives</span><small>Delivery Executive</small></a><a class="module-card" href="pages/delivery-assignments.html"><span>Delivery Assignments</span><small>Delivery Executive</small></a><a class="module-card" href="pages/delivery-app-report.html"><span>Delivery App Report</span><small>Delivery Executive</small></a><a class="module-card" href="pages/cod-report.html"><span>COD Report</span><small>Delivery Executive</small></a></div></section><section class="module-section"><h2>Expenses</h2><div class="module-grid"><a class="module-card" href="pages/expenses.html"><span>Expenses</span><small>Expenses</small></a><a class="module-card" href="pages/recurring-expenses.html"><span>Recurring Expenses</span><small>Expenses</small></a><a class="module-card" href="pages/expense-categories.html"><span>Expense Categories</span><small>Expenses</small></a><a class="module-card" href="pages/expense-reports.html"><span>Expense Reports</span><small>Expenses</small></a></div></section><section class="module-section"><h2>Payments</h2><div class="module-grid"><a class="module-card" href="pages/payments.html"><span>Payments</span><small>Payments</small></a><a class="module-card" href="pages/due-payments.html"><span>Due Payments</span><small>Payments</small></a><a class="module-card" href="pages/due-payments-received-report.html"><span>Due Payments Received Report</span><small>Payments</small></a><a class="module-card" href="pages/due-payment-reports.html"><span>Due Payment Reports</span><small>Payments</small></a><a class="module-card" href="pages/refund-report.html"><span>Refund Report</span><small>Payments</small></a><a class="module-card" href="pages/tax-report.html"><span>Tax Report</span><small>Payments</small></a></div></section><section class="module-section"><h2>Reports</h2><div class="module-grid"><a class="module-card" href="pages/reports-overview.html"><span>Reports Overview</span><small>Reports</small></a><a class="module-card" href="pages/sales-report.html"><span>Sales Report</span><small>Reports</small></a><a class="module-card" href="pages/item-report.html"><span>Item Report</span><small>Reports</small></a><a class="module-card" href="pages/category-report.html"><span>Category Report</span><small>Reports</small></a><a class="module-card" href="pages/pos-machine-report.html"><span>POS Machine Report</span><small>Reports</small></a><a class="module-card" href="pages/cancelled-order-report.html"><span>Cancelled Order Report</span><small>Reports</small></a><a class="module-card" href="pages/removed-kot-item-report.html"><span>Removed KOT Item Report</span><small>Reports</small></a><a class="module-card" href="pages/loyalty-reports.html"><span>Loyalty Reports</span><small>Reports</small></a><a class="module-card" href="pages/order-report.html"><span>Order Report</span><small>Reports</small></a></div></section><section class="module-section"><h2>AI Assistant</h2><div class="module-grid"><a class="module-card" href="pages/ai-assistant.html"><span>AI Assistant</span><small>AI Assistant</small></a></div></section><section class="module-section"><h2>Cash Register</h2><div class="module-grid"><a class="module-card" href="pages/register-dashboard.html"><span>Register Dashboard</span><small>Cash Register</small></a><a class="module-card" href="pages/cash-register.html"><span>Cash Register</span><small>Cash Register</small></a><a class="module-card" href="pages/cash-register-reports.html"><span>Cash Register Reports</span><small>Cash Register</small></a><a class="module-card" href="pages/cash-register-approvals.html"><span>Cash Register Approvals</span><small>Cash Register</small></a><a class="module-card" href="pages/denominations.html"><span>Denominations</span><small>Cash Register</small></a><a class="module-card" href="pages/register-settings.html"><span>Register Settings</span><small>Cash Register</small></a><a class="module-card" href="pages/operational-shifts.html"><span>Operational Shifts</span><small>Cash Register</small></a></div></section><section class="module-section"><h2>Kitchens</h2><div class="module-grid"><a class="module-card" href="pages/kitchen-settings.html"><span>Kitchen Settings</span><small>Kitchens</small></a><a class="module-card" href="pages/all-kitchen-kot.html"><span>All Kitchen KOT</span><small>Kitchens</small></a><a class="module-card" href="pages/default-kitchen.html"><span>Default Kitchen</span><small>Kitchens</small></a></div></section><section class="module-section"><h2>Hotel</h2><div class="module-grid"><a class="module-card" href="pages/front-desk-dashboard.html"><span>Front Desk Dashboard</span><small>Hotel</small></a><a class="module-card" href="pages/room-types.html"><span>Room Types</span><small>Hotel</small></a><a class="module-card" href="pages/rooms.html"><span>Rooms</span><small>Hotel</small></a><a class="module-card" href="pages/room-status-board.html"><span>Room Status Board</span><small>Hotel</small></a><a class="module-card" href="pages/guests.html"><span>Guests</span><small>Hotel</small></a><a class="module-card" href="pages/hotel-reservations.html"><span>Hotel Reservations</span><small>Hotel</small></a><a class="module-card" href="pages/quotations.html"><span>Quotations</span><small>Hotel</small></a><a class="module-card" href="pages/check-in.html"><span>Check-In</span><small>Hotel</small></a><a class="module-card" href="pages/check-out.html"><span>Check-Out</span><small>Hotel</small></a><a class="module-card" href="pages/rate-plans.html"><span>Rate Plans</span><small>Hotel</small></a><a class="module-card" href="pages/housekeeping.html"><span>Housekeeping</span><small>Hotel</small></a><a class="module-card" href="pages/room-service.html"><span>Room Service</span><small>Hotel</small></a><a class="module-card" href="pages/stay-history.html"><span>Stay History</span><small>Hotel</small></a><a class="module-card" href="pages/banquet-events.html"><span>Banquet &amp; Events</span><small>Hotel</small></a><a class="module-card" href="pages/agreements.html"><span>Agreements</span><small>Hotel</small></a><a class="module-card" href="pages/hotel-settings.html"><span>Hotel Settings</span><small>Hotel</small></a></div></section><section class="module-section"><h2>Inventory</h2><div class="module-grid"><a class="module-card" href="pages/inventory-dashboard.html"><span>Inventory Dashboard</span><small>Inventory</small></a><a class="module-card" href="pages/units.html"><span>Units</span><small>Inventory</small></a><a class="module-card" href="pages/inventory-items.html"><span>Inventory Items</span><small>Inventory</small></a><a class="module-card" href="pages/inventory-item-categories.html"><span>Inventory Item Categories</span><small>Inventory</small></a><a class="module-card" href="pages/inventory-stocks.html"><span>Inventory Stocks</span><small>Inventory</small></a><a class="module-card" href="pages/inventory-movements.html"><span>Inventory Movements</span><small>Inventory</small></a><a class="module-card" href="pages/recipes.html"><span>Recipes</span><small>Inventory</small></a><a class="module-card" href="pages/batch-recipes.html"><span>Batch Recipes</span><small>Inventory</small></a><a class="module-card" href="pages/batch-inventory.html"><span>Batch Inventory</span><small>Inventory</small></a><a class="module-card" href="pages/purchase-orders.html"><span>Purchase Orders</span><small>Inventory</small></a><a class="module-card" href="pages/suppliers.html"><span>Suppliers</span><small>Inventory</small></a><a class="module-card" href="pages/inventory-reports.html"><span>Inventory Reports</span><small>Inventory</small></a><a class="module-card" href="pages/batch-reports.html"><span>Batch Reports</span><small>Inventory</small></a><a class="module-card" href="pages/inventory-settings.html"><span>Inventory Settings</span><small>Inventory</small></a></div></section><section class="module-section"><h2>System Settings</h2><div class="module-grid"><a class="module-card" href="pages/settings-overview.html"><span>Settings Overview</span><small>System Settings</small></a><a class="module-card" href="pages/restaurant-settings.html"><span>Restaurant Settings</span><small>System Settings</small></a><a class="module-card" href="pages/branch-settings.html"><span>Branch Settings</span><small>System Settings</small></a><a class="module-card" href="pages/tax-settings.html"><span>Tax Settings</span><small>System Settings</small></a><a class="module-card" href="pages/payment-gateway-settings.html"><span>Payment Gateway Settings</span><small>System Settings</small></a><a class="module-card" href="pages/roles-permissions.html"><span>Roles and Permissions</span><small>System Settings</small></a><a class="module-card" href="pages/printer-kot-settings.html"><span>Printer and KOT Settings</span><small>System Settings</small></a></div></section>
+  </main>
   <script src="assets/js/app.js"></script>
 </body>
 </html>
