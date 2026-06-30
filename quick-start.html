@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quick Start Guide · Restaurant Management System</title>
+  <meta name="description" content="Client documentation for the restaurant management system.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="topbar"><strong>Restaurant Docs</strong><button class="mobile-toggle" data-toggle>Menu</button></div>
+  <div class="layout">
+    
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="logo">R</div>
+        <div><h1>Restaurant Management System</h1><p>Client User Guide</p></div>
+      </div>
+      <div class="search-box"><input id="docSearch" type="search" placeholder="Search modules..."></div>
+      <nav>
+        <div class="nav-section">
+          <p class="nav-title">Start</p>
+          <a class="nav-link " href="index.html"><span class="emoji">🏠</span><span>Documentation Home</span></a>
+          <a class="nav-link active" href="quick-start.html"><span class="emoji">🚀</span><span>Quick Start Guide</span></a>
+        </div>
+    
+<div class="nav-section"><p class="nav-title">Restaurant Setup</p>
+<a data-module-link class="nav-link " href="modules/restaurant-menu-module.html"><span class="emoji">🍽️</span><span>Restaurant Menu Module</span></a>
+<a data-module-link class="nav-link " href="modules/restaurant-table-module.html"><span class="emoji">🪑</span><span>Restaurant Table Module</span></a>
+</div>
+<div class="nav-section"><p class="nav-title">Guest Management</p>
+<a data-module-link class="nav-link " href="modules/restaurant-reservation-module.html"><span class="emoji">📅</span><span>Restaurant Reservation Module</span></a>
+<a data-module-link class="nav-link " href="modules/restaurant-customer-module.html"><span class="emoji">👥</span><span>Restaurant Customer Module</span></a>
+</div>
+<div class="nav-section"><p class="nav-title">Sales &amp; Service</p>
+<a data-module-link class="nav-link " href="modules/restaurant-pos-module.html"><span class="emoji">🧾</span><span>Restaurant POS Module</span></a>
+<a data-module-link class="nav-link " href="modules/restaurant-order-module.html"><span class="emoji">📦</span><span>Restaurant Order Module</span></a>
+</div>
+<div class="nav-section"><p class="nav-title">Administration</p>
+<a data-module-link class="nav-link " href="modules/restaurant-staff-menu.html"><span class="emoji">👨‍🍳</span><span>Restaurant Staff Menu</span></a>
+<a data-module-link class="nav-link " href="modules/restaurant-settings-menu.html"><span class="emoji">⚙️</span><span>Restaurant Settings Menu</span></a>
+</div>
+<div class="nav-section"><p class="nav-title">Sales &amp; Finance</p>
+<a data-module-link class="nav-link " href="modules/restaurant-payments-menu.html"><span class="emoji">💳</span><span>Restaurant Payments Menu</span></a>
+<a data-module-link class="nav-link " href="modules/reports-menu.html"><span class="emoji">📊</span><span>Reports Menu</span></a>
+<a data-module-link class="nav-link " href="modules/due-payment-reports.html"><span class="emoji">🧮</span><span>Due Payment Reports</span></a>
+</div>
+<div class="nav-section"><p class="nav-title">Operations</p>
+<a data-module-link class="nav-link " href="modules/operational-shifts.html"><span class="emoji">⏱️</span><span>Operational Shifts</span></a>
+<a data-module-link class="nav-link " href="modules/waiter-table-assignment-module.html"><span class="emoji">🔔</span><span>Waiter Table Assignment Module</span></a>
+<a data-module-link class="nav-link " href="modules/menu-to-table-assignment.html"><span class="emoji">🧩</span><span>Menu-to-Table Assignment</span></a>
+</div>
+<div class="nav-section"><p class="nav-title">Automation</p>
+<a data-module-link class="nav-link " href="modules/daily-menu-pdf-email.html"><span class="emoji">📧</span><span>Daily Menu PDF Email</span></a>
+</div>
+</nav></aside>
+    <main class="main">
+      
+<section class="content-card">
+  <div class="breadcrumb">Home / Quick Start</div>
+  <h1>Quick Start Guide</h1>
+  <p class="lead">Use this checklist when setting up a new restaurant account or training a new client. Complete the setup steps before the restaurant starts recording real orders.</p>
+  <div class="toc">
+    <a href="#setup">Initial Setup</a><a href="#daily">Daily Operations</a><a href="#closing">End-of-Day Closing</a><a href="#training">Staff Training</a>
+  </div>
+  <h2 id="setup">Initial setup checklist</h2>
+  <ol class="steps">
+    <li class="step"><div><strong>Configure restaurant profile.</strong><br>Set business name, phone number, country, timezone, currency, logo, and theme from Settings.</div></li>
+    <li class="step"><div><strong>Create branches and areas.</strong><br>Add branches where applicable, then create areas such as main dining, lounge, garden, bar, or VIP.</div></li>
+    <li class="step"><div><strong>Add tables and QR codes.</strong><br>Create tables with seating capacity and print/test the QR codes if customers will self-order.</div></li>
+    <li class="step"><div><strong>Build the menu.</strong><br>Create menus, categories, and menu items. Confirm prices, item availability, and category grouping.</div></li>
+    <li class="step"><div><strong>Add staff and roles.</strong><br>Create staff accounts and assign the correct roles for admins, managers, waiters, kitchen users, and cashiers.</div></li>
+    <li class="step"><div><strong>Set taxes and payment options.</strong><br>Configure taxes and payment gateways/methods before taking real orders.</div></li>
+    <li class="step"><div><strong>Test the POS flow.</strong><br>Create a test order, send KOT, bill the order, record payment, and verify reports.</div></li>
+  </ol>
+  <h2 id="daily">Daily operations flow</h2>
+  <ul class="check-list">
+    <li>Open POS and confirm tables are available before service starts.</li>
+    <li>Take orders through POS or QR ordering depending on the restaurant setup.</li>
+    <li>Send KOTs to the kitchen and update KOT status when food is ready or cancelled.</li>
+    <li>Generate the bill and collect payment before closing the order.</li>
+    <li>Use the order and payment screens to confirm that no order has been missed.</li>
+  </ul>
+  <h2 id="closing">End-of-day closing</h2>
+  <ul class="check-list">
+    <li>Review open orders and close completed orders.</li>
+    <li>Check payments by method and compare with actual cash/mobile/card totals.</li>
+    <li>Review due payments and outstanding balances.</li>
+    <li>Open reports to confirm sales totals, top items, and category performance.</li>
+    <li>Check shift-based totals if operational shifts are enabled.</li>
+  </ul>
+  <div class="note"><strong>Tip:</strong> Before publishing this documentation to clients, replace illustration placeholders with screenshots from your own branded installation. That will make the guide look like the exact system your clients use.</div>
+  <div class="print-actions"><button class="btn" onclick="window.print()">Print / Save as PDF</button></div>
+</section>
+
+      <div class="footer">© Restaurant Management System. Customize this documentation with your restaurant system name, support contacts, and screenshots before publishing.</div>
+    </main>
+  </div>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
